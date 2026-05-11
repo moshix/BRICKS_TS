@@ -14,8 +14,8 @@ pseudo-conversational and conversational programs to run as usual.
 Bricks also features a built-in VSAM access method which is then stored inside a BoltDB 
 database for easy management, backup etc. 
 
-Cobol and REXX programs are parsed once and then cached so repeat dispathes skip
-the lex+parse cost. Since every istantiated program has its own heap and stack,there are
+Cobol and REXX programs are parsed once and then cached so repeat dispatches skip
+the lex+parse cost. Since every instantiated program has its own heap and stack,there are
 no re-entrancy issues to deal with. Bricks expressely disallows the use of calculated GOTOs 
 in COBOL programs, also for the same reason. 
 
@@ -467,7 +467,7 @@ what used to be `CEMT P PERFORMANCE`:
 | BRICKS Transaction Server • CEMT — Performance • TERM=T0001          |
 |                                                                      |
 |  Process                              Activity                       |
-|  ───────────────────────              ───────────────────────         |
+|  ───────────────────────              ───────────────────────        |
 |  Memory (heap)        12.4 MB         EXEC CICS total       1,234    |
 |  Memory (sys)         45.1 MB           SEND                  312    |
 |  Heap objects        12,345             RECEIVE               312    |
@@ -480,7 +480,7 @@ what used to be `CEMT P PERFORMANCE`:
 |  Uptime               3m 12s                                         |
 |                                                                      |
 |  Sessions                                                            |
-|  ───────────────────────────────────────────────────────────────────  |
+|  ─────────────────────────────────────────────────────────────────── |
 |  Active terminals    2          Active transactions    1             |
 |  Signed-on users     1          Known files            1             |
 |                                                                      |
