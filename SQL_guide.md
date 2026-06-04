@@ -42,7 +42,7 @@ database; it connects, as a client, to a Postgres server you run.
 
 By having a central Postgres, multiple BRICKS regions can participate
 in a BRICKS MULTI-REGION cluster for added high availability and 
-trhuput. 
+thruput. 
 
 The components:
 
