@@ -55,13 +55,14 @@ OPTION  ===>  _
    1  -  Edit REXX programs        (runtime/rexx)
    2  -  Edit COBOL programs       (runtime/cobol)
    3  -  Edit BMS map files        (runtime/map)
-
+   4  -  Edit PL/I files           (runtime/pli)
+   
 Press ENTER after typing the option number, or F3 to exit ISPF.
 ...
                                                           F3=Exit
 ```
 
-Type `1`, `2`, or `3` in the `OPTION ===>` field and press ENTER. PF3
+Type `1`, `2`, '3', or `4` in the `OPTION ===>` field and press ENTER. PF3
 exits ISPF and returns you to the blank prompt.
 
 The directories are taken from your `bricks.cnf`:
@@ -71,7 +72,7 @@ The directories are taken from your `bricks.cnf`:
 | REXX | `rexx_dir` | `runtime/rexx` |
 | COBOL | `cobol_dir` | `runtime/cobol` |
 | MAPS | `maps_dir` | `runtime/map` |
-
+| PL/I | `pli_dir` | `runtime/pli` |
 ---
 
 ## File browser
